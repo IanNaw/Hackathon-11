@@ -1,0 +1,39 @@
+
+.Container {
+    width: 20%;
+    height: 20%;
+}
+
+
+.CarroUl {
+    margin: 0%;
+    /* width: 20%;
+    height: 20%; */
+    display: flex;
+    list-style: none;
+    font-family: Helvetica;
+    font-weight: 700;
+    justify-content: space-around;
+    border-bottom: solid #dcdcdc;
+}
+
+.CarroLi {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.BotonContenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.CarritoBoton {
+    width: 60%;
+    font-size: 1rem;
+    font-family: helvetica;
+    font-weight: 700;
+    color: grey;
+    margin-top: 3%;
+    border: solid #dcdcdc 1px;
+    border-radius: 20px;
+}
